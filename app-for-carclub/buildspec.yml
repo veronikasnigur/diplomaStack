@@ -17,7 +17,7 @@ post_build:
       - cd dist/app-for-carclub
       - ls -la
 artifacts:
-  base-directory: 'frontend/app-for-carclub/src*'
+  base-directory: 'frontend/app-for-carclub/dist*'
   discard-paths: yes
   files:
     - '**/*'  
